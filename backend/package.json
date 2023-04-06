@@ -1,0 +1,31 @@
+{
+  "name": "backend_upwork",
+  "version": "1.0.0",
+  "description": "backend up work service",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nustvondev/Up-Work-Service.git"
+  },
+  "keywords": [
+    "mongodb",
+    "express"
+  ],
+  "author": "hoahuunguyen.dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nustvondev/Up-Work-Service/issues"
+  },
+  "homepage": "https://github.com/nustvondev/Up-Work-Service#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3",
+    "nodemon": "^2.0.22"
+  }
+}
